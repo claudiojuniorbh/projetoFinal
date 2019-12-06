@@ -1,0 +1,675 @@
+.mediaViewInfo {
+	--web-view-name: Home;
+	--web-view-id: Home;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-show-scale-controls: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Home;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Home {
+	position: absolute;
+	background: #E5E5E5;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Home;
+	--web-view-id: Home;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-show-scale-controls: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+.Ret_ngulo_1 {
+	position: absolute;
+	overflow: visible;
+	width: 398px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#logo {
+	position: absolute;
+	width: 610px;
+	height: 457px;
+	left: -35px;
+	top: 0px;
+	overflow: visible;
+}
+#Cadastrar_Produtos {
+	position: absolute;
+	left: 59px;
+	top: 489px;
+	overflow: visible;
+	width: 311px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Produtos.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Candida BT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+#Home_k {
+	position: absolute;
+	left: 151px;
+	top: 411px;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Candida BT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+#content {
+	position: absolute;
+	width: 356px;
+	height: 712px;
+	left: 554px;
+	top: 184px;
+	overflow: visible;
+}
+#stacks {
+	position: absolute;
+	width: 356px;
+	height: 560px;
+	left: 0px;
+	top: 50px;
+	overflow: visible;
+}
+.bg {
+	position: absolute;
+	overflow: visible;
+	width: 263px;
+	height: 452px;
+	left: 32px;
+	top: 108px;
+}
+.bg_o {
+	position: absolute;
+	overflow: visible;
+	width: 293px;
+	height: 451px;
+	left: 17px;
+	top: 98px;
+}
+#card {
+	position: absolute;
+	width: 356px;
+	height: 539px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.bg_q {
+	position: absolute;
+	overflow: visible;
+	width: 327px;
+	height: 539px;
+	left: 0px;
+	top: 0px;
+}
+#If_you_re_offered_a_seat_on_a_ {
+	position: absolute;
+	left: 25px;
+	top: 448px;
+	overflow: hidden;
+	width: 278px;
+	height: 51px;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(120,132,158,1);
+}
+#Colar_A {
+	position: absolute;
+	left: 32px;
+	top: 384px;
+	overflow: hidden;
+	width: 264px;
+	height: 44px;
+	line-height: 55px;
+	margin-top: -7.5px;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(69,79,99,1);
+}
+#Imagem_2 {
+	position: absolute;
+	width: 356px;
+	height: 371px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#buttons_large_green {
+	position: absolute;
+	width: 327px;
+	height: 52px;
+	left: 0px;
+	top: 660px;
+	overflow: visible;
+}
+.bg_v {
+	position: absolute;
+	overflow: visible;
+	width: 327px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+}
+#Ver_produto {
+	position: absolute;
+	left: 124px;
+	top: 15px;
+	overflow: visible;
+	width: 81px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+#pagination_light {
+	position: absolute;
+	width: 56px;
+	height: 8px;
+	left: 136px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid {
+	position: absolute;
+	width: 40px;
+	height: 8px;
+	left: 16px;
+	top: 0px;
+	overflow: hidden;
+}
+#Repeat_Grid_0 {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.dot {
+	position: absolute;
+	overflow: visible;
+	width: 8px;
+	height: 8px;
+	left: 0px;
+	top: 0px;
+}
+#Repeat_Grid_1 {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 16px;
+	top: 0px;
+	overflow: visible;
+}
+.dot_ {
+	position: absolute;
+	overflow: visible;
+	width: 8px;
+	height: 8px;
+	left: 0px;
+	top: 0px;
+}
+#Repeat_Grid_2 {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 32px;
+	top: 0px;
+	overflow: visible;
+}
+.dot_ba {
+	position: absolute;
+	overflow: visible;
+	width: 8px;
+	height: 8px;
+	left: 0px;
+	top: 0px;
+}
+.dot_bb {
+	position: absolute;
+	overflow: visible;
+	width: 8px;
+	height: 8px;
+	left: 0px;
+	top: 0px;
+}
+#content_ {
+	position: absolute;
+	width: 344px;
+	height: 712px;
+	left: 977px;
+	top: 184px;
+	overflow: visible;
+}
+#stacks_ {
+	position: absolute;
+	width: 344px;
+	height: 560px;
+	left: 0px;
+	top: 50px;
+	overflow: visible;
+}
+.bg_ {
+	position: absolute;
+	overflow: visible;
+	width: 263px;
+	height: 452px;
+	left: 49px;
+	top: 108px;
+}
+.bg_ba {
+	position: absolute;
+	overflow: visible;
+	width: 293px;
+	height: 451px;
+	left: 34px;
+	top: 98px;
+}
+#card_ba {
+	position: absolute;
+	width: 344px;
+	height: 539px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.bg_bb {
+	position: absolute;
+	overflow: visible;
+	width: 327px;
+	height: 539px;
+	left: 17px;
+	top: 0px;
+}
+#If_you_re_offered_a_seat_on_a__bc {
+	position: absolute;
+	left: 42px;
+	top: 448px;
+	overflow: hidden;
+	width: 278px;
+	height: 51px;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(120,132,158,1);
+}
+#Brinco_A {
+	position: absolute;
+	left: 50px;
+	top: 384px;
+	overflow: hidden;
+	width: 264px;
+	height: 44px;
+	line-height: 55px;
+	margin-top: -7.5px;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(69,79,99,1);
+}
+#Imagem_1 {
+	position: absolute;
+	width: 344px;
+	height: 368px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#buttons_large_green_bf {
+	position: absolute;
+	width: 327px;
+	height: 52px;
+	left: 17px;
+	top: 660px;
+	overflow: visible;
+}
+.bg_bg {
+	position: absolute;
+	overflow: visible;
+	width: 327px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+}
+#Ver_produto_bh {
+	position: absolute;
+	left: 124px;
+	top: 15px;
+	overflow: visible;
+	width: 81px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+#pagination_light_bi {
+	position: absolute;
+	width: 56px;
+	height: 8px;
+	left: 153px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_bj {
+	position: absolute;
+	width: 40px;
+	height: 8px;
+	left: 16px;
+	top: 0px;
+	overflow: hidden;
+}
+#Repeat_Grid_bj_0 {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.dot_bl {
+	position: absolute;
+	overflow: visible;
+	width: 8px;
+	height: 8px;
+	left: 0px;
+	top: 0px;
+}
+#Repeat_Grid_bj_1 {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 16px;
+	top: 0px;
+	overflow: visible;
+}
+.dot_bn {
+	position: absolute;
+	overflow: visible;
+	width: 8px;
+	height: 8px;
+	left: 0px;
+	top: 0px;
+}
+#Repeat_Grid_bj_2 {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 32px;
+	top: 0px;
+	overflow: visible;
+}
+.dot_bp {
+	position: absolute;
+	overflow: visible;
+	width: 8px;
+	height: 8px;
+	left: 0px;
+	top: 0px;
+}
+.dot_bq {
+	position: absolute;
+	overflow: visible;
+	width: 8px;
+	height: 8px;
+	left: 0px;
+	top: 0px;
+}
+#content_br {
+	position: absolute;
+	width: 344px;
+	height: 712px;
+	left: 1404px;
+	top: 184px;
+	overflow: visible;
+}
+#stacks_bs {
+	position: absolute;
+	width: 344px;
+	height: 560px;
+	left: 0px;
+	top: 50px;
+	overflow: visible;
+}
+.bg_bt {
+	position: absolute;
+	overflow: visible;
+	width: 263px;
+	height: 452px;
+	left: 32px;
+	top: 108px;
+}
+.bg_bu {
+	position: absolute;
+	overflow: visible;
+	width: 283px;
+	height: 451px;
+	left: 17px;
+	top: 98px;
+}
+#card_bv {
+	position: absolute;
+	width: 344px;
+	height: 539px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.bg_bw {
+	position: absolute;
+	overflow: visible;
+	width: 317px;
+	height: 539px;
+	left: 0px;
+	top: 0px;
+}
+#If_you_re_offered_a_seat_on_a__bx {
+	position: absolute;
+	left: 25px;
+	top: 448px;
+	overflow: hidden;
+	width: 268px;
+	height: 51px;
+	line-height: 24px;
+	margin-top: -5px;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(120,132,158,1);
+}
+#Pulseira_X {
+	position: absolute;
+	left: 32px;
+	top: 384px;
+	overflow: hidden;
+	width: 254px;
+	height: 44px;
+	line-height: 55px;
+	margin-top: -7.5px;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(69,79,99,1);
+}
+#Imagem_3 {
+	position: absolute;
+	width: 344px;
+	height: 357px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#buttons_large_green_b {
+	position: absolute;
+	width: 317px;
+	height: 52px;
+	left: 0px;
+	top: 660px;
+	overflow: visible;
+}
+.bg_b {
+	position: absolute;
+	overflow: visible;
+	width: 317px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+}
+#Ver_produto_b {
+	position: absolute;
+	left: 119px;
+	top: 15px;
+	overflow: visible;
+	width: 81px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+#pagination_light_b {
+	position: absolute;
+	width: 56px;
+	height: 8px;
+	left: 131px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_b {
+	position: absolute;
+	width: 40px;
+	height: 8px;
+	left: 16px;
+	top: 0px;
+	overflow: hidden;
+}
+#Repeat_Grid_b_0 {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.dot_b {
+	position: absolute;
+	overflow: visible;
+	width: 8px;
+	height: 8px;
+	left: 0px;
+	top: 0px;
+}
+#Repeat_Grid_b_1 {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 16px;
+	top: 0px;
+	overflow: visible;
+}
+.dot_ca {
+	position: absolute;
+	overflow: visible;
+	width: 8px;
+	height: 8px;
+	left: 0px;
+	top: 0px;
+}
+#Repeat_Grid_b_2 {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 32px;
+	top: 0px;
+	overflow: visible;
+}
+.dot_cb {
+	position: absolute;
+	overflow: visible;
+	width: 8px;
+	height: 8px;
+	left: 0px;
+	top: 0px;
+}
+.dot_cc {
+	position: absolute;
+	overflow: visible;
+	width: 8px;
+	height: 8px;
+	left: 0px;
+	top: 0px;
+}
+#HOME {
+	position: absolute;
+	left: 1089px;
+	top: 97px;
+	overflow: visible;
+	width: 138px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Candida BT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,148,202,1);
+}
